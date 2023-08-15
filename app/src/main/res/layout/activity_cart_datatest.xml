@@ -1,0 +1,67 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainbackground"
+    tools:context=".CartDatatest">
+
+    <EditText
+        android:id="@+id/cart_name"
+        android:layout_width="357dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="152dp"
+        android:ems="10"
+        android:hint="Item Name"
+        android:inputType="text"
+        android:textColor="#E0D4D4"
+        android:textColorHint="#9F9C9C"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cart_price"
+        android:layout_width="357dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="256dp"
+        android:ems="10"
+        android:hint="Item Price"
+        android:inputType="text"
+        android:textColor="#F1EBEB"
+        android:textColorHint="#CABEBE"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/cart_quantity"
+        android:layout_width="357dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="328dp"
+        android:ems="10"
+        android:hint="Item Quantity"
+        android:inputType="text"
+        android:textColor="#F1EBEB"
+        android:textColorHint="#CABEBE"
+        android:textSize="34sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cart_add_button"
+        android:layout_width="153dp"
+        android:layout_height="81dp"
+        android:layout_marginBottom="112dp"
+        android:background="@color/white"
+        android:text="ADD"
+        android:textColorLink="#070707"
+        android:textSize="34sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
